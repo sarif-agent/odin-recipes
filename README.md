@@ -14,5 +14,5 @@ Such as;
 -- I learned adding backgrounds one of the pages given through Odin Project's additional resource sites.
 -- I learned nesting lists (ul in ol or opposite) through pages given through Odin Project's additional resource sites.
 
-!ps: I know that now we're using HTML5 we don't use the <!-- <center> --> method.-->
+!ps: I know that now we're using HTML5 we don't use the "center" method.
 HOWEVER, just for this project, i've used, anyway... (welp, i don't know CSS yet)
