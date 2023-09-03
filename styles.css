@@ -1,0 +1,26 @@
+body {
+    background-image: url(./images/background1.jpg);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-weight: bold;
+    
+}
+
+.info {
+    font-style: italic;
+    border: 5px solid black;
+}
+
+
+h1, 
+h2 {
+    color: crimson;
+}
+
+.links {
+    color: red;
+    text-decoration-line: none;
+}
