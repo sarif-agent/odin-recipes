@@ -1,0 +1,33 @@
+body {
+    background-image: url(../images/background1.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    text-align: center;
+    border: 3px solid;
+}
+
+.info h1, h2 {
+    color: crimson;
+    font-weight: 800;
+}
+
+.info p {
+    font-weight: 700;
+}
+
+.links a {
+    color: red;
+    text-decoration-line: none;
+}
+
+#home {
+    text-align: center;
+    font-weight: bold;
+}
+
+#home a {
+    color: red;
+    text-decoration-line: none;
+}

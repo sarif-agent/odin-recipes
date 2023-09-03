@@ -18,6 +18,7 @@ p {
 h1, 
 h2 {
     color: crimson;
+    font-weight: 800;
 }
 
 .links {
