@@ -6,6 +6,8 @@
   /* hover underline effect for links */
 a:hover {
     text-decoration-line: underline;
+    background-color: antiquewhite;
+    color: yellow;
 }
 
 body {
