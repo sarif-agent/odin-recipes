@@ -1,25 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+  /* hover underline effect for links */
+  a:hover {
+    text-decoration-line: underline;
+}
+
 body {
     background-image: url(../images/background1.jpg);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.info {
+h1,
+h2 {
+    box-shadow: 2px 2px rgb(27,27,27);
+    margin: 20px auto 20px auto;
+    width: 400px;
     text-align: center;
-    border: 3px solid;
-}
-
-.info h1, h2 {
     color: crimson;
-    font-weight: 800;
+    font-weight: 700px;
+    border: 3px solid rgb(255, 0, 0); 
+    background-color: rgb(27,27,27); 
+    display: block;
 }
 
-.info p {
-    font-weight: 700;
+h3 {
+    width: 200px;
+    text-align: center;
+    color: crimson;
+    font-weight: 700px;
+    border: 3px solid rgb(255, 0, 0); 
+    background-color: rgb(27,27,27); 
+    display: block;
 }
+
+
+.info {
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 0px 3px;
+}
+
+.ottoarma {
+    border: solid black 5px;
+    font-weight: 600px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+.ottomap {
+    display: block;
+    border: solid black 4px;
+    width: 507px;
+    background-color: rgb(27,27,27);
+    box-shadow: 2px 2px rgb(27,27,27);
+}
+
 
 .links a {
     color: red;
     text-decoration-line: none;
+}
+
+.links a:hover {
+    color: red;
+    text-decoration-line: underline;
 }
 
 #home {
@@ -30,4 +79,9 @@ body {
 #home a {
     color: red;
     text-decoration-line: none;
+}
+
+#home a:hover {
+    color: red;
+    text-decoration-line: underline;
 }
