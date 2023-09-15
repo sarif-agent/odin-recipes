@@ -8,10 +8,19 @@
         <title>Welcome</title>
         <link rel="icon" type="image/x-icon" href="./images/ottofav.ico">
         <link rel="stylesheet" href="./styles.css">
+        <style>
+            @font-face {
+                font-family: customfont;
+                src: url(./OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+            }
+        </style>
     </head>
 
     <body>
-        <h1>ODIN RECIPES</h1>
+        <div>
+            <h1 class="header">ODIN RECIPES</h1>
+        </div>
+
         <div class="info">
             <p>While creating this recipe page, I preferred to provide recipes that belong to my own culture and history.</p>
             <p>I also wanted to offer you the opportunity to learn about my heritage and culture.</p>
@@ -21,7 +30,7 @@
         <img src="./images/odinlogo1.png" alt="Drawing of God Odin" style="height: 500px; width: auto;">
           
 
-        <h2>WELCOME</h2>
+        <h2 class="header">WELCOME</h2>
 
         <p>Step into the enchanting world of Ottoman cuisine and Turkish culture as we invite you to discover a realm of delectable recipes.</b></p>
 
@@ -30,14 +39,17 @@
         <!-- For some reason external CSS doesn't seem to work for images. Yes, tried everything -->
         <img src="./images/kebabfight.gif" alt="Shish Kebab Gif" style="height: 250px; width: auto;">
         
-        
-        <a class="links" id="kitchen" href="./recipes/ottomankitchen.html"><p>TO OTTOMAN KITCHEN!</p></a>
-
-        <p><i>Or Instantly Visit Recipes...</i></p>
-
-        <a class="links" href="./recipes/karniyarik.html"><p>Karniyarik Recipe</p></a>
-        <a class="links" href="./recipes/patlicansalat.html"><p>Patlican Salad Recipe</p></a>
+        <div>
+            <a class="links" id="kitchen" href="./recipes/ottomankitchen.html"><p>TO OTTOMAN KITCHEN!</p></a>
+        </div>    
+            <p><i>Or Instantly Visit Recipes...</i></p>
+        <div>
+            <a class="links" href="./recipes/karniyarik.html"><p>Karniyarik Recipe</p></a>
+        </div>    
+            <a class="links" href="./recipes/patlicansalat.html"><p>Patlican Salad Recipe</p></a>
+        <div>
         <a class="links" href="./recipes/yapraksarma.html"><p>Yaprak Sarma Recipe</p></a>    
+        </div>    
     </body>
 
 

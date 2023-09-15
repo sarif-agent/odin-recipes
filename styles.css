@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  /* hover underline effect for links */
+a:hover {
+    text-decoration-line: underline;
+}
+
 body {
     background-image: url(./images/background1.jpg);
     text-align: center;
@@ -10,18 +20,41 @@ p {
 }
 
 .info {
-    font-style: italic;
+    font-family: customfont;
+    box-sizing: border-box;
     border: 5px solid black;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 3px;
 }
 
+img {
+    display: block;
+    margin: 5px auto;
 
-h1, 
-h2 {
+}
+
+.header {
     color: crimson;
     font-weight: 800;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(27,27,27);
+    display: inline-block;
+    margin: 20px auto;
+    padding: 0 10px;
 }
 
 .links {
-    color: red;
+    color: crimson;
     text-decoration-line: none;
+}
+
+.links p {
+    border: 3px solid rgb(255, 0, 0);
+    width: 250;
+    padding: 5px 5px;
+    display: block;
+    margin: 5px auto;
+    width: 300px;
+    background-color: rgb(27,27,27);
 }
