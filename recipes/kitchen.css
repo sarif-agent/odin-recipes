@@ -19,7 +19,7 @@ h2 {
     width: 400px;
     text-align: center;
     color: crimson;
-    font-weight: 700px;
+    font-weight: 700;
     border: 3px solid rgb(255, 0, 0); 
     background-color: rgb(27,27,27); 
     display: block;
@@ -46,7 +46,7 @@ h3 {
 
 .ottoarma {
     border: solid black 5px;
-    font-weight: 600px;
+    font-weight: 600;
     text-align: center;
     margin: 0px auto;
     display: block;
